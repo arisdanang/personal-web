@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Catering Management System Administrator (Japan)",
+      "imageSrc": "/image/projects/project-1.svg",
+      "desc": "Doi Masaru Catering Management System Platform for Administrator (On Progress)",
+      "techs": ["react", "nextjs", "mui", "reactquery"],
+      "link": "https://system.doi-masaru.com/"
+    },
+    {
+      "id": 2,
+      "name": "Catering Management System Worker (Japan)",
+      "imageSrc": "/image/projects/project-2.svg",
+      "desc": "Doi Masaru Catering Management System Platform for Worker (On Progress)",
+      "techs": ["react", "nextjs", "mui", "reactquery"],
+      "link": "https://user.doi-masaru.com/"
+    },
+    {
+      "id": "3",
+      "name": "Tracker App",
+      "imageSrc": "/image/projects/project-3.jpeg",
+      "desc": "A simple expense tracking app to manage your spending effortlessly and stay financially organized.",
+      "techs": ["react", "tailwindcss"],
+      "link": "https://react-tracker-app.vercel.app/"
+    },
+    {
+      "id": 4,
+      "name": "Simple Note App",
+      "imageSrc": "/image/projects/project-4.jpeg",
+      "desc": "Crafted during an online course, my minimalist note app effortlessly organizes thoughts, making daily tasks a breeze",
+      "techs": ["react", "tailwindcss"],
+      "link": "https://react-note-app-kappa.vercel.app/"
+    },
+    {
+      "id": 5,
+      "name": "Gym App",
+      "imageSrc": "/image/projects/project-5.jpeg",
+      "desc": "Crafted during an online course, my minimalist note app effortlessly organizes thoughts, making daily tasks a breeze",
+      "techs": ["react", "mui"],
+      "link": "https://reactjs-fitness-app.netlify.app/"
+    },
+    {
+      "id": 6,
+      "name": "Personal Website",
+      "imageSrc": "/image/projects/project-6.jpeg",
+      "desc": "Crafted during an online course, my minimalist note app effortlessly organizes thoughts, making daily tasks a breeze",
+      "techs": ["nextjs", "react", "tailwindcss"],
+      "link": "/"
+    }
+  ]
+}
