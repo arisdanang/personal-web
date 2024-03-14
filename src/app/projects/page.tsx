@@ -15,7 +15,7 @@ const Page = () => {
         <Accent>Projects</Accent>
       </h2>
       <p className="mt-2 mb-4 text-gray-700 dark:text-gray-300">
-        project yang sudah saya buat
+        The Projects I&apos;ve Created
       </p>
 
       <div className="gap-4 grid sm:grid-cols-2 md:grid-cols-3 mb-5">
