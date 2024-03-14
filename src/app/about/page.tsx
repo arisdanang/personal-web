@@ -1,7 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
 import Image from "next/image";
-import Container from "../layout/Container";
 import {
   SiTypescript,
   SiJavascript,
@@ -18,6 +17,7 @@ import {
   SiCss3,
   SiBootstrap,
   SiReactquery,
+  SiRedux,
 } from "react-icons/si";
 import Accent from "../_components/Accent";
 import Link from "next/link";
@@ -38,14 +38,15 @@ const page = () => {
 
         <div className="mt-4">
           <figure className="float-right">
-            <Image
-              src="/profile.jpeg"
-              alt="profile"
-              width={300}
-              height={300}
-              priority
-              className="rounded-md w-40 md:w-72  object-cover object-center ml-4"
-            />
+            <div className="relative w-[300px] h-[300px]">
+              <Image
+                src="/profile.jpeg"
+                alt="profile"
+                fill
+                priority
+                className="rounded-md w-40 md:w-72  object-cover object-center ml-4"
+              />
+            </div>
           </figure>
           <article>
             <p className="mb-4 text-gray-700 dark:text-gray-300">
@@ -61,10 +62,10 @@ const page = () => {
               </Link>
               , who taught me programming. for the first time.
             </p>
-            <p className="mb-4 text-gray-700 dark:text-gray-300">
+            <p className="text-gray-700 mb-2 dark:text-gray-300">
               Fast forward to 2019, when my focus shifted to the field of web
               development. I started exploring PHP and the Laravel Framework,
-              met upperclassmen, namely,
+              and my relationship with my seniors, namely,{" "}
               <Link
                 href="https://www.linkedin.com/in/al-falah-lazuardi-mahmudi-54840b192"
                 className="underline decoration-wavy"
@@ -85,19 +86,10 @@ const page = () => {
               >
                 Ashandi
               </Link>{" "}
-              , who were willing to guide me. And then, in 2021, I started
-              exploring the exciting world of frontend. starting from YouTube
-              videos, Udemy courses, and articles that helped me learn the world
-              of Frontend.
-            </p>
-            <p className="text-gray-700 mb-2 dark:text-gray-300">
-              Fast forward to 2019, when my focus shifted to the field of web
-              development. I started exploring PHP and the Laravel Framework,
-              and my relationship with my seniors, namely, Falah, Rochim, and
-              Ashandi, who also became mentors at that time, increased. And
-              then, in 2021, I started exploring the exciting world of frontend.
-              starting from YouTube videos, Udemy courses, and articles that
-              helped me learn the world of Frontend.
+              , who also became mentors at that time, increased. And then, in
+              2021, I started exploring the exciting world of frontend. starting
+              from YouTube videos, Udemy courses, and articles that helped me
+              learn the world of Frontend.
             </p>
           </article>
         </div>
@@ -111,11 +103,12 @@ const page = () => {
           <SiNextdotjs />
           <SiJavascript />
           <SiTypescript />
+          <SiCypress />
+          <SiReactquery />
+          <SiRedux />
           <SiCss3 />
           <SiMui />
           <SiTailwindcss />
-          <SiCypress />
-          <SiReactquery />
           <SiNodedotjs />
           <SiExpress />
         </div>
@@ -126,6 +119,27 @@ const page = () => {
         </h3>
         <article className="mt-4">
           <ol className="list-decimal list-inside">
+            <li className="mb-4">
+              <Accent className="font-semibold">
+                Frontend Developer - Freelance
+              </Accent>
+              <p className="text-gray-700 mb-2 dark:text-gray-300">
+                Collaborating closely with clients and the backend team to
+                ensure project goals are achieved, swiftly identifying and
+                resolving bug issues to uphold product quality and reliability,
+                and adeptly designing and implementing client-desired features
+                to enhance the user experience.
+              </p>
+              <div>
+                <p className="font-semibold mb-2">Tech Stack: </p>
+                <div className="text-2xl md:text-3xl flex gap-4 text-gray-700 dark:text-gray-300">
+                  <SiReact />
+                  <SiJavascript />
+                  <SiMui />
+                  <SiReactquery />
+                </div>
+              </div>
+            </li>
             <li className="mb-4">
               <Accent className="font-semibold">
                 Jr. Frontend Engineer - Happy5

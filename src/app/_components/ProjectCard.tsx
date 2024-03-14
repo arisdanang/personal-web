@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import ButtonLink from "./ButtonLink";
 import TechIcons, { TechListType } from "./TechIcons";
+import Link from "next/link";
 
 type ProjectCardProps = {
   id: number | string;
@@ -20,7 +21,8 @@ const ProjectCard = ({
   techs,
   link,
 }: ProjectCardProps) => (
-  <div
+  <Link
+    href={link}
     className="max-w-sm border-2 dark:border-gray-700 rounded-md p-4 flex flex-col items-start justify-between"
     key={id}
   >
@@ -36,9 +38,6 @@ const ProjectCard = ({
       quality={60}
       priority
     />
-    <ButtonLink href={link} className="mt-3" target="_blank">
-      Visit
-    </ButtonLink>
-  </div>
+  </Link>
 );
 export default ProjectCard;

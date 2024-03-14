@@ -4,7 +4,7 @@ import Accent from "../_components/Accent";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "BLog | Aris Danang",
+  title: "Blog | Aris Danang",
   description: "pengennya ini buat halaman blog",
 };
 
