@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import ButtonLink from "./ButtonLink";
 import TechIcons, { TechListType } from "./TechIcons";
 import Link from "next/link";
 
