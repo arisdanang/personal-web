@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8">
-          <p className="text-center">
+          <p className="text-center text-xs md:text-base">
             © {new Date().getFullYear()} Aris Danang Pridiksono • Made with ❤️
           </p>
         </div>
