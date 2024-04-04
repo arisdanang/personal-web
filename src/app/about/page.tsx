@@ -38,15 +38,14 @@ const page = () => {
 
         <div className="mt-4">
           <figure className="float-right">
-            <div className="relative w-[300px] h-[300px]">
-              <Image
-                src="/profile.jpeg"
-                alt="profile"
-                fill
-                priority
-                className="rounded-md w-40 md:w-72  object-cover object-center ml-4"
-              />
-            </div>
+            <Image
+              src="/profile.jpeg"
+              alt="profile"
+              width={300}
+              height={300}
+              priority
+              className="rounded-md w-40 md:w-72  object-cover object-center ml-4"
+            />
           </figure>
           <article>
             <p className="mb-4 text-gray-700 dark:text-gray-300">
