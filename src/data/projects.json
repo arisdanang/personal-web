@@ -36,7 +36,7 @@
       "id": 5,
       "name": "Gym App",
       "imageSrc": "/image/projects/project-5.jpeg",
-      "desc": "Crafted during an online course, my minimalist note app effortlessly organizes thoughts, making daily tasks a breeze",
+      "desc": "Crafting a dynamic website tailored for gym enthusiasts, blending fitness inspiration with seamless user experience.",
       "techs": ["react", "mui"],
       "link": "https://reactjs-fitness-app.netlify.app/"
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "name": "Personal Website",
       "imageSrc": "/image/projects/project-6.jpeg",
-      "desc": "Crafted during an online course, my minimalist note app effortlessly organizes thoughts, making daily tasks a breeze",
+      "desc": "Built to nurture my growth as a software engineer, this website serves as a space where I explore, learn, and showcase my work in software development.",
       "techs": ["nextjs", "react", "tailwindcss"],
       "link": "/"
     }
