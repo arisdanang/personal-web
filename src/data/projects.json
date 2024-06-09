@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "id": 7,
+      "name": "Transgo Dashboard",
+      "imageSrc": "/image/projects/project-7.jpeg",
+      "desc": "A comprehensive car rental dashboard app to streamline vehicle rentals efficiently and enhance management ease.",
+      "techs": ["nextjs", "react", "tailwindcss", "reactquery", "zod"],
+      "link": "https://dashboard.transgo.id"
+    },
+    {
       "id": 1,
       "name": "Catering Management System Administrator (Japan)",
       "imageSrc": "/image/projects/project-1.svg",
@@ -17,7 +25,7 @@
       "link": "https://user.doi-masaru.com/"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Tracker App",
       "imageSrc": "/image/projects/project-3.jpeg",
       "desc": "A simple expense tracking app to manage your spending effortlessly and stay financially organized.",

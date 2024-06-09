@@ -16,6 +16,7 @@ import {
   SiCss3,
   SiBootstrap,
   SiReactquery,
+  SiZod,
 } from "react-icons/si";
 
 export type TechListType = keyof typeof techList;
@@ -107,5 +108,9 @@ const techList = {
   reactquery: {
     icon: SiReactquery,
     name: "reactquery",
+  },
+  zod: {
+    icon: SiZod,
+    name: "zod",
   },
 };
