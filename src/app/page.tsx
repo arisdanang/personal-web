@@ -25,7 +25,7 @@ export default function Home() {
         </p>
 
         <div className="flex flex-wrap gap-4 md:!text-lg mt-4">
-          <ButtonLink href="https://drive.google.com/file/d/1xjmWQJbwynQomjhAXoDARZCy2rgXRZQ7/view?usp=sharing">
+          <ButtonLink href="https://drive.google.com/file/d/1jUFWxM6SggAStG3vtxFDO0vGp_Flc1Su/view?usp=sharing">
             My Resume
           </ButtonLink>
           <ButtonLink href="/about">Learn more about me</ButtonLink>
